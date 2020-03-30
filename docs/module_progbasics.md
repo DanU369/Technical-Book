@@ -36,14 +36,13 @@ def fibonacci(n):
  
     
 #### How do you find a max value in a list/array if you can’t use any built-in functions?
-"""
-
+'''
 maximum=0
 for item in list:
   if item>maximum:
     maximum=item
   return maximum
-"""
+'''
 #### How do you find the average of values in a list/array if you can’t use any built-in functions?
 '''
 sum=0
