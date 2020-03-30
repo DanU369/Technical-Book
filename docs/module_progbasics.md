@@ -36,20 +36,22 @@ def fibonacci(n):
  
     
 #### How do you find a max value in a list/array if you can’t use any built-in functions?
+'''
 maximum=0
 for item in list:
   if item>maximum:
     maximum=item
   return maximum
-  
+'''
 #### How do you find the average of values in a list/array if you can’t use any built-in functions?
+'''
 sum=0
 items_no=0
 for item in list:
   sum+=item
   items_no+=1
 return sum/items_no
-
+'''
 #### What do we call an *in-place* sort?
 We call _sort()_ an in-place method because it modifies a given list in-place (it modifies the actual list on the spot without returning a new one) by using _<_ comparisons between items.
 
@@ -128,10 +130,11 @@ A list can contain any type of elements.
 #### What is slice operator in Python and how to use?
 * The slice operator is a method that extracts a subset of a list, which will itself be a list.
 * In order to use it, you need to specify an upper and lower bound. Note that our sublist will include the element at the lower bound, but _exclude_ the element at the upper bound:
-
+'''
 animals = ['cat', 'dog', 'fish', 'bison']
 print(animals[1:3]) # ['dog', 'fish']
 print(animals[1:-1]) # ['dog', 'fish']
+'''
 #### What arithmetic operators (+,*,-,/) can be used on lists in Python? What do they do?
 "+" you can use addition to merge 2 lists into 1 list with both elements
 "*" you can use multiplication with one list in form of (list*integer) to form a list that contains the element from the initial list "number" number of times
@@ -144,11 +147,12 @@ If the "+" operator is used on 2 strings it will merge them into 1 containing th
 
 #### Explain f strings in Python?
 f strings are the fastest way to format a string. Beforehand you must define variables and then use those variables where you want them to use between {}.
+'''
 ex:
 name=Dan
 f'Hello, {name}!'
 OUTPUT: Hello, Dan!
-
+'''
 #### Name 4 iterable types in Python!
 Strings, lists, tuples, dictionaries
 
@@ -160,6 +164,7 @@ The only thing that matters is that the function definition must be before funct
 
 #### What does unpacking mean in Python?
 There are 2 ways of unpacking:
+'''
 my_list = ["one", "two", "three"]
 print(*my_list)
 OUTPUT: one two three
@@ -169,13 +174,14 @@ print(*my_dict)
 OUTPUT: name surname
 print(**my_dict) #should be used as keyword arguments
 Output: TypeError: 'a' is an invalid keyword argument for this function
-def func(a,b,c):
-  print(a,b,c)
+def func(a,b):
+  print(a,b)
 func(**my_dict)
 OUTPUT: Jane Doe
-
+'''
 #### What happens when you try to assign the result of a function which has no return statement to a variable in Python?
 The variable will have the value None
+
 ## Software engineering
 
 ### Debugging
