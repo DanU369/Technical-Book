@@ -22,7 +22,7 @@ dictionary.Remove(key)= removes the group with the key='key' from the dictionary
 
 #### Fibonacci sequences. Write a method (or pseudo code), that generates the Fibonacci sequences.
 def fibonacci(n):
-'''
+
     a = 1
     b = 0
     count = 0
@@ -33,7 +33,7 @@ def fibonacci(n):
         b = a
         a = c
         count += 1
- '''
+ 
     
 #### How do you find a max value in a list/array if you can’t use any built-in functions?
 maximum=0
@@ -183,10 +183,12 @@ The variable will have the value None
 #### What techniques can you use while debugging a program in Python?
 You can run the debug in vSC to see what the program does after each step
 You can use print() statements to see if the program enters the desired block of code
+
 #### What does step over, step into and step out mean while using the debugger?
 Step over skips the next function from debugging steps
 Step into enters the next function and execute it step by step
 Step out end the debugging of the current function and go to the next one
+
 #### How can you start to debug a program from a certain line using the debugger?
 You must place a break point (turn the grey dot next to line number to red)
 
