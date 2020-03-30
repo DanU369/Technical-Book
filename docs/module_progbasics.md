@@ -22,6 +22,7 @@ dictionary.Remove(key)= removes the group with the key='key' from the dictionary
 
 #### Fibonacci sequences. Write a method (or pseudo code), that generates the Fibonacci sequences.
 def fibonacci(n):
+'''
     a = 1
     b = 0
     count = 0
@@ -32,6 +33,7 @@ def fibonacci(n):
         b = a
         a = c
         count += 1
+ '''
     
 #### How do you find a max value in a list/array if you can’t use any built-in functions?
 maximum=0
